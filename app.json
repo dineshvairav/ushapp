@@ -19,10 +19,15 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dineshvairav.ai_3"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "SUPABASE_URL": "https://xlaadoethfvzdqvbztrl.supabase.co",
+      "SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhsYWFkb2V0aGZ2emRxdmJ6dHJsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDExNTEwOTUsImV4cCI6MjA1NjcyNzA5NX0.7uojIqXWnND-fvQ-BQpgHR8GgdtMU5_E-XJvHXhIYVs"
     }
   }
 }
