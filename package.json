@@ -6,7 +6,10 @@
     "start": "expo start",
     "android": "expo run:android",
     "ios": "expo run:ios",
-    "web": "expo start --web"
+    "web": "expo start --web --clear",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d web-build",
+    "build": "expo build:web"
   },
   "dependencies": {
     "@expo/metro-runtime": "~4.0.1",
@@ -29,7 +32,8 @@
     "react-native-webview": "13.12.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "gh-pages": "^6.3.0"
   },
   "private": true
 }
