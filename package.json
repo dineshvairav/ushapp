@@ -8,8 +8,8 @@
     "ios": "expo run:ios",
     "web": "expo start --web --clear",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d web-build",
-    "build": "expo build:web"
+    "deploy": "gh-pages -d dist",
+    "build": "npx expo export"
   },
   "dependencies": {
     "@expo/metro-runtime": "~4.0.1",
@@ -35,5 +35,6 @@
     "@babel/core": "^7.20.0",
     "gh-pages": "^6.3.0"
   },
+  "homepage": "http://dineshvairav.github.io/ushapp",
   "private": true
 }
